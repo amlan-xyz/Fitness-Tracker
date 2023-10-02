@@ -24,7 +24,7 @@ export const deleteGoals=(goalId)=>async(dispatch)=>{
         });
         const {data}=await response.json();
         dispatch({type:"DELETE_GOAL_SUCCESS",payload:data});
-        toast.success("Error deleting goal")
+        toast.success("Goal deleted")
     }catch(error){
             dispatch({ type: "DELETE_GOAL_FAILURE"});
             toast.error("Error deleting goal")
