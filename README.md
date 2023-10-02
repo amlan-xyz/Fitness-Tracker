@@ -30,7 +30,7 @@ The application also exposes the following API endpoints:
 ## Getting Started
 To get started with the Fitness Tracker web application, you can clone this repository and install the dependencies:
 ```
-git clone https://github.com/your-username/fitness-tracker.git
+https://github.com/theweird0ne/Fitness-Tracker.git
 cd fitness-tracker
 npm install
 ```
