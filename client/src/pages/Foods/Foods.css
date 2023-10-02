@@ -1,0 +1,22 @@
+.foods__list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.foods__list-item{
+    width: 350px;
+    height: 200px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.foods__list-item button{
+    display: flex;
+    width: 100%;
+    border: none;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    margin-bottom: -1rem;
+}

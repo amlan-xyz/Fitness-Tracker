@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+
+:root{
+  --primary-color:#616161;
+  --secondary-color:#dbdbdb;
+  --text-color:#171717;
+  --background-color:#f7f7f7;
+  --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  background-color: var(--background-color);
+  color:var(--text-color);
+}
+
+ul{
+  list-style: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 350px auto;
+}
+
+.App{
+  margin: 3rem 2rem 2rem 350px;
+  min-width: 1024px;
+}
+
+.section{
+  padding-left:2rem ;
+}
+
+.section__header{
+  display: flex;
+  align-items: center;
+}
+
+.section__header-p{
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-right: 1rem;
+}
+
+.section__container{
+  margin: 2rem 0;
+}
+
+.primary__btn{
+  border: none;
+  min-width: 80px;
+  height: 40px;
+  box-shadow: var(--shadow);
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 20px;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.list-item{
+  width: 340px;;
+  min-height: 100px;
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+.list-item h3{
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.list-item p{
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-bottom: .8rem;
+  
+}
+
+.list-item button{
+  display: flex;
+  width: 100%;
+  border: none;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+  margin-bottom: -1rem;
+}
+
+.highlight-red{
+  background-color: #f59790;
+  width: max-content;
+  padding:.3rem .5rem;
+  border-radius: .5rem;
+}
+
+.highlight-green{
+  background-color: #90f590;
+  width: max-content;
+  padding:.3rem .5rem;
+  border-radius: .5rem;
+}
+
+.highlight-yellow{
+  background-color: #eefaaa;
+  width: max-content;
+  padding:.3rem .5rem;
+  border-radius: .5rem;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

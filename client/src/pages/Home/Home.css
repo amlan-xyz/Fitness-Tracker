@@ -1,0 +1,40 @@
+.home__calories--counter{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: .5rem;
+}
+
+.home__calories--counter-card{
+    width: 200px;
+    height: 200px;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+}
+
+.home__calories--counter-icon{
+    font-size: 2rem;
+}
+.home__calories--counter-value{
+    font-size: 3rem;
+}
+
+.red{
+    color :#f59790;
+}
+
+.blue{
+    color:#7481f2;
+}
+
+.green{
+    color: #90f590;
+}
+
+.yellow{
+    color: #fac30f;
+}
+
+.home__calories--counter-details{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
